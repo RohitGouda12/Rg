@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: greenyellow;
+            margin: 0;
+        }
+
+        .gallery {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .item {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .item p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .item img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .item img:hover {
+            transform: scale(1.05);
+        }
+
+        hr {
+            border: 0.5px solid #ddd;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-back:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><marquee>Select Your Plant And Make Your Own Business Garden</marquee></h1>
+
+    <div class="gallery">
+
+        <div class="item">
+            <p>Coconut Plant</p>
+            <a href="3rdpage.html"><img src="coconut.jpg" alt="Coconut"></a>
+        </div>
+        <hr>
+
+        <div class="item">
+            <p>Areca Palm</p>
+            <a href="4rhpage.html"><img src="Areca_palm.jpg" alt="Areca Palm"></a>
+        </div>
+        <hr>
+
+        <div class="item">
+            <p>Cardamom Plant</p>
+            <a href="5thpage.html"><img src="Cardamom.jpg" alt="Cardamom"></a>
+        </div>
+        <hr>
+
+        <div class="item">
+            <p>Cloves Plant</p>
+            <a href="6thpage.html"><img src="cloves.jpg" alt="Cloves"></a>
+        </div>
+        <hr>
+
+        <div class="item">
+            <p>Mango Plant</p>
+            <a href="7thpage.html"><img src="mango.jpg" alt="Mango"></a>
+        </div>
+        <hr>
+
+        <div class="item">
+            <p>Black Pepper (Piper)</p>
+            <a href="8thpage.html"><img src="piper.jpg" alt="Piper"></a>
+        </div>
+
+        <div style="text-align:center;">
+            <a href="index.html" class="btn-back">⬅ Back to Home</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
